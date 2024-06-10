@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "gcn-prov"
+version = "0.1.1"
+description = ""
+authors = ["george.kontsevik <george.kontsevik@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+torch = "^2.3.0"
+torch-geometric = "^2.5.3"
+geopandas = "^0.14.4"
+tqdm = "^4.66.4"
+scikit-learn = "^1.4.2"
+ipykernel = "^6.29.4"
+tensorboard = "^2.16.2"
+folium = "^0.16.0"
+matplotlib = "^3.9.0"
+mapclassify = "^2.6.1"
+optuna = "^3.6.1"
+optuna-integration = "^3.6.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
